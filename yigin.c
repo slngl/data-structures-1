@@ -82,24 +82,24 @@ int main(int argc, char** argv) {
         ekle(20,&yigin_gostergesi);
         ekle(60,&yigin_gostergesi);
 
-				printf("\n************************\n\n");
-				printf("liste:");
+	printf("\n************************\n\n");
+	printf("liste:");
         yazdir(yigin_gostergesi);
               
 
         a=cikar(&yigin_gostergesi);
         if(a!=SENTINEL) printf(" \nCikarilan: %4d \n\n",a);
-				printf("liste:");
-			  yazdir(yigin_gostergesi);
+	printf("liste:");
+	yazdir(yigin_gostergesi);
 
         a=cikar(&yigin_gostergesi);
         if(a!=SENTINEL) printf(" \nCikarilan: %4d \n\n",a);
-			  yazdir(yigin_gostergesi);
+	yazdir(yigin_gostergesi);
 
         a=cikar(&yigin_gostergesi);
         if(a!=SENTINEL) printf(" \nCikarilan: %4d \n\n",a);
-				printf("liste:");
-				yazdir(yigin_gostergesi);
+	printf("liste:");
+	yazdir(yigin_gostergesi);
 
         a=cikar(&yigin_gostergesi);
         if(a!=SENTINEL) printf(" \nCikarilan: %4d \n\n",a);
