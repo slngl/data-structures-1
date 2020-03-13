@@ -380,7 +380,7 @@ void update(){
           fwrite(&Eser,sizeof(Eser),1,fp2);
        }
     }
-       fclose(fp);
+       fclose(fp); 
        fclose(fp2);
        remove("Galeri.dat");
        rename("yeni.dat","Galeri.dat");
